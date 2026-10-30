@@ -37,7 +37,7 @@ export function AboutTab() {
         </p>
       </div>
       <Embed title="My Latest Live Stream" src={profile.latestStreamEmbed} />
-      <Embed title="My Latest Videos" src={profile.latestVideoEmbed} />
+      <Embed title="My Latest Video" src={profile.latestVideoEmbed} />
     </div>
   );
 }
