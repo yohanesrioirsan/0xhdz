@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0xhdz</title>
+    <meta
+      name="description"
+      content="0xhdz (Yohanes Rio Irsan, aka hadez): ex-semi-pro CS/Valorant player turned software engineer. Streams, videos, gaming gear setup, and links."
+    />
+    <meta name="author" content="Yohanes Rio Irsan" />
+    <link rel="canonical" href="https://0xhdz.cloud/" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <!-- Open Graph (Discord, WhatsApp, Facebook, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="0xhdz" />
+    <meta property="og:url" content="https://0xhdz.cloud/" />
+    <meta property="og:title" content="0xhdz" />
+    <meta
+      property="og:description"
+      content="Ex-semi-pro CS/Valorant player turned software engineer. Streams, videos, gear setup, and links."
+    />
+    <meta property="og:image" content="https://0xhdz.cloud/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="0xhdz" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@rioirsan31" />
+    <meta name="twitter:title" content="0xhdz" />
+    <meta
+      name="twitter:description"
+      content="Ex-semi-pro CS/Valorant player turned software engineer. Streams, videos, gear setup, and links."
+    />
+    <meta name="twitter:image" content="https://0xhdz.cloud/og-image.png" />
+
+    <!-- Structured data so search engines can connect the site to your profiles -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Yohanes Rio Irsan",
+        "alternateName": ["0xhdz", "hadez", "hadezje", "hdz"],
+        "url": "https://0xhdz.cloud/",
+        "jobTitle": "Software Engineer",
+        "sameAs": [
+          "https://yohanesrioirsan.is-a.dev",
+          "https://instagram.com/yohanesrioirsan",
+          "https://threads.com/yohanesrioirsan",
+          "https://x.com/rioirsan31",
+          "https://youtube.com/@hadezje_cs",
+          "https://twitch.tv/itsmehadez",
+          "https://github.com/yohanesrioirsan",
+          "https://steamcommunity.com/id/hdzj",
+          "https://www.faceit.com/en/players/hadezje"
+        ]
+      }
+    </script>
+
+    <script>
+      // Apply saved theme before paint to avoid a flash. Defaults to dark.
+      try {
+        if (localStorage.getItem("theme") !== "light") document.documentElement.classList.add("dark")
+      } catch {
+        document.documentElement.classList.add("dark")
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
